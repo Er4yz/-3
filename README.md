@@ -907,6 +907,8 @@
             }
 
             55.Ввести число оборотов двигателя в минуту(RPM).Вывести режим: «Заглушен» (0), «Холостой ход» (1 - 900), «Рабочий» (901 - 3500), «Красная зона» (3501 +).
+<img width="1920" height="1200" alt="№55" src="https://github.com/user-attachments/assets/a3cd8e6a-22cd-4908-a32c-74db08fc432c" />
+
             Console.Write("Введите число оборотов двигателя в минуту (RPM): ");
             int ЧислоОборотов = Convert.ToInt32(Console.ReadLine());
 
@@ -928,6 +930,8 @@
             }
 
             56.Ввести сумму дохода за год. Рассчитать подоходный налог: до 2.4 млн — 13 %, до 5 млн — 15 %, выше 5 млн — 18 %.
+<img width="1920" height="1200" alt="№56" src="https://github.com/user-attachments/assets/d3eb71e5-832c-4bc5-93a6-40f23df34106" />
+
             Console.Write("Введите сумму дохода за год: ");
             double summ = Convert.ToDouble(Console.ReadLine());
 
@@ -945,6 +949,8 @@
             }
 
             57.По введенной координате X точки на плоскости(при Y = 0) определить ее положение: на нуле, в положительной или отрицательной полуоси.
+<img width="1920" height="1200" alt="№57" src="https://github.com/user-attachments/assets/399da118-3aa4-446f-a613-f3c160e75ab6" />
+
             Console.Write("Точка X: ");
             double X = Convert.ToDouble(Console.ReadLine());
 
@@ -962,6 +968,8 @@
             }
 
             58.Ввести индекс массы тела(ИМТ).Вывести категорию: дефицит веса(< 18.5), норма(18.5 - 24.9), избыток(25 - 29.9), ожирение(30 +).
+<img width="1920" height="1200" alt="№58" src="https://github.com/user-attachments/assets/3f5cd9a8-a13f-4aa4-9d37-6794668875f5" />
+
             Console.Write("Введите индекс массы тела (ИМТ): ");
             double m = Convert.ToDouble(Console.ReadLine());
 
@@ -983,6 +991,8 @@
             }
 
             59.Ввести скорость ветра(м/ с). Вывести категорию по шкале: штиль(< 0.2), легкий ветерок(0.2 - 5), умеренный(5.1 - 14), шторм(14.1 - 24), ураган(> 24).
+<img width="1920" height="1200" alt="№59" src="https://github.com/user-attachments/assets/61e9455f-3e90-4c50-a2bd-53484e7579f2" />
+
             Console.Write("Введите скорость ветра (м/с): ");
             double v = Convert.ToDouble(Console.ReadLine());
 
@@ -1008,6 +1018,8 @@
             }
 
             60.Ввести стаж работы сотрудника(в годах).Вывести размер надбавки: < 1 года — 0 %, 1 - 5 лет — 5 %, 6 - 10 лет — 10 %, > 10 лет — 15 %.
+<img width="1920" height="1200" alt="№60" src="https://github.com/user-attachments/assets/6f8adc3e-9383-4a68-94e2-3d6fa6275943" />
+
             Console.Write("Введите стаж работы сотрудника (в годах): ");
             int experience = Convert.ToInt32(Console.ReadLine());
 
@@ -1029,6 +1041,8 @@
             }
 
             61.Пользователь вводит текущий час(0–23).Вывести: «Ночь» (0 - 5), «Утро» (6 - 11), «День» (12 - 17), «Вечер» (18 - 23).
+<img width="1920" height="1200" alt="№61" src="https://github.com/user-attachments/assets/cbd984e1-dccb-45ba-b0c8-9834bdea4f48" />
+
             Console.Write("Введите текущий час (0-23): ");
             int hour = Convert.ToInt32(Console.ReadLine());
 
@@ -1050,6 +1064,8 @@
             }
 
             62.Ввести толщину льда на водоеме(см). Вывести: «Выход запрещен» (< 7), «Одиночный пешеход» (7 - 12), «Группа людей» (13 - 20), «Транспорт» (> 20).
+<img width="1920" height="1200" alt="№62" src="https://github.com/user-attachments/assets/e12ecf5f-1b5e-48dd-a5d1-8517618fd284" />
+
             Console.Write("Введите толщину льда на водоеме (см): ");
             int толщина = Convert.ToInt32(Console.ReadLine());
 
@@ -1071,6 +1087,8 @@
             }
 
             63.Даны три целых числа A, B, C.Найти максимальное из них, используя каскадное условие.
+<img width="1920" height="1200" alt="№63" src="https://github.com/user-attachments/assets/b55d2bb7-7cec-4ebc-aa97-15f4596d39ef" />
+
             Console.Write("Целое число A: ");
             int A = Convert.ToInt32(Console.ReadLine());
 
@@ -1094,6 +1112,8 @@
             }
 
             64.Даны три числа. Найти минимальное из них.
+<img width="1920" height="1200" alt="№64" src="https://github.com/user-attachments/assets/92093cea-7db5-4b1a-a11f-03dc5f4a3b0a" />
+
             Console.Write("Первое число: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1117,6 +1137,8 @@
             }
 
             65.Даны три числа. Определить, сколько из них положительных(0, 1, 2 или 3).
+<img width="1920" height="1200" alt="№65" src="https://github.com/user-attachments/assets/b0dc040f-afb0-454e-8dd1-3e7e2d9004fe" />
+
             Console.Write("Первое число: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1160,6 +1182,8 @@
             }
 
             66.Ввести средний балл диплома.Вывести: «Без отличия» (< 4.5), «Претендент на красный диплом» (4.5 - 4.74), «Красный диплом» (≥4.75).
+<img width="1920" height="1200" alt="№66" src="https://github.com/user-attachments/assets/136bfcf3-0fec-45d3-b59b-409ed866a60f" />
+
             Console.Write("Введите средний балл диплома: ");
             double среднийбалл = Convert.ToDouble(Console.ReadLine());
 
@@ -1177,6 +1201,8 @@
             }
 
             67.Ввести значение артериального давления(систолическое).Вывести: гипотония(< 90), норма(90 - 120), предгипертензия(121 - 139), гипертензия(≥140).
+<img width="1920" height="1200" alt="№67" src="https://github.com/user-attachments/assets/ea723fc0-afb1-4e5a-8ced-8513621618c7" />
+
             Console.Write("Введите значение артериального давления (систолическое): ");
             int davlenie = Convert.ToInt32(Console.ReadLine());
 
@@ -1198,6 +1224,8 @@
             }
 
             68.Ввести рейтинг шахматиста(Эло). Вывести ранг: любитель(< 1400), разрядник(1400 - 1999), мастер(2000 - 2399), гроссмейстер(≥2400).
+<img width="1920" height="1200" alt="№68" src="https://github.com/user-attachments/assets/3ee02eb0-952a-45c2-9116-0702dd5844ac" />
+
             Console.Write("Введите рейтинг шахматиста (Эло): ");
             int reiting = Convert.ToInt32(Console.ReadLine());
 
@@ -1219,6 +1247,8 @@
             }
 
             69.Ввести число и определить, сколькизначным оно является(однозначное, двузначное, трехзначное или более).
+<img width="1920" height="1200" alt="№69" src="https://github.com/user-attachments/assets/21891b07-0cb1-4d7f-b89c-4849144594b3" />
+
             Console.Write("Введите число: ");
             int number = Convert.ToInt32(Console.ReadLine());
 
@@ -1240,6 +1270,8 @@
             }
 
             70.Ввести дальность поездки на такси(км). Рассчитать тариф: до 5 км — 200 руб, от 5 до 15 км — 200 + 25 руб / км, свыше 15 км — 200 + 20 руб / км.
+<img width="1920" height="1200" alt="№70" src="https://github.com/user-attachments/assets/c4e63c05-613b-405c-944c-b589cd6e248f" />
+
             Console.Write("Введите дальность поездки на такси (км): ");
             int S = Convert.ToInt32(Console.ReadLine());
 
@@ -1257,6 +1289,8 @@
             }
 
             71.Ввести количество осадков за сутки(мм). Определить: без осадков(0), слабый дождь(0.1 - 4), умеренный(4.1 - 15), сильный ливень(> 15).
+<img width="1920" height="1200" alt="№71" src="https://github.com/user-attachments/assets/f05ab28d-fbee-4496-89bd-ab48a56f61e3" />
+
             Console.Write("Введите количество осадков за сутки (мм): ");
             double осадки = Convert.ToDouble(Console.ReadLine());
 
@@ -1278,6 +1312,8 @@
             }
 
             72.Ввести процент выполнения плана продаж. Вывести статус: план сорван(< 70), удовлетворительно(70 - 99 %), выполнен(100 - 119 %), перевыполнен(≥120).
+<img width="1920" height="1200" alt="№72" src="https://github.com/user-attachments/assets/73b3dc59-0fb3-4d08-b313-605060ce59cb" />
+
             Console.Write("Введите процент выполнения плана продаж: ");
             int percent = Convert.ToInt32(Console.ReadLine());
 
@@ -1299,6 +1335,8 @@
             }
 
             73.Даны три числа. Упорядочить их по возрастанию и вывести на консоль.
+<img width="1920" height="1200" alt="№73" src="https://github.com/user-attachments/assets/04ee66b0-537b-4856-9d0d-e6450073a6a5" />
+
             Console.Write("Первое число: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1335,6 +1373,8 @@
             Console.WriteLine(c);
 
             74.Дано число X.Вычислить значение кусочно - заданной функции: f(x) = x2, если x> 0; f(x) = 0, если x = 0; f(x) =−x, еслиx < 0.
+<img width="1920" height="1200" alt="№74" src="https://github.com/user-attachments/assets/1c9fc639-74e5-43d9-80ea-72e22148d0b2" />
+
             Console.Write("x: ");
             int x = Convert.ToInt32(Console.ReadLine());
 
@@ -1352,6 +1392,8 @@
             }
 
             75.Ввести октановое число бензина.Классифицировать: < 92— несоответствие стандарту, 92 — АИ - 92, 95 — АИ - 95, 98 - 100 — АИ - 98 / 100, > 100— спорт / авиатопливо.
+<img width="1920" height="1200" alt="№75" src="https://github.com/user-attachments/assets/5ab67cae-185d-4a54-9cce-3e9d77b28108" />
+
             Console.Write("Введите октановое число бензина: ");
             int n = Convert.ToInt32(Console.ReadLine());
 
@@ -1377,6 +1419,8 @@
             }
 
             76.Ввести сумму покупок за месяц для начисления кешбэка: до 10 000 руб — 1 %, до 50 000 руб — 3 %, свыше 50 000 руб — 5 %.Вывести сумму кешбэка.
+<img width="1920" height="1200" alt="№76" src="https://github.com/user-attachments/assets/cddd1cd0-2853-45a1-bd5d-2d51d2fa12ce" />
+
             Console.Write("Введите сумму покупок за месяц для начисления кешбэка: ");
             double summ = Convert.ToDouble(Console.ReadLine());
 
@@ -1394,6 +1438,8 @@
             }
 
             77.Ввести глубину погружения аквалангиста(метры).Вывести зону: рекреационная(< 40), техническая(40 - 100), глубоководная(> 100)
+<img width="1920" height="1200" alt="№77" src="https://github.com/user-attachments/assets/9ddc0351-36e6-4e98-8600-2581a3de8b0f" />
+
             Console.Write("Введите глубину погружения аквалангиста (метры): ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1411,6 +1457,8 @@
             }
 
             78.Ввести количество штрафных баллов водителя. Вывести: «Предупреждение» (1 - 5), «Временное ограничение» (6 - 10), «Лишение прав» (> 10).
+<img width="1920" height="1200" alt="№78" src="https://github.com/user-attachments/assets/1f2002eb-2984-4b40-b0c7-58818824f560" />
+
             Console.Write("Введите количество штрафных баллов водителя: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1428,6 +1476,8 @@
             }
 
             79.Ввести уровень кислотности почвы(pH).Определить: кислая(< 6.0), нейтральная(6.0 - 7.2), щелочная(> 7.2).
+<img width="1920" height="1200" alt="№79" src="https://github.com/user-attachments/assets/8de0ab03-ca04-49e2-82c3-4ce2a2c6030b" />
+
             Console.Write("Введите уровень кислотности почвы (pH) : ");
             double a = Convert.ToDouble(Console.ReadLine());
 
@@ -1445,6 +1495,8 @@
             }
 
             80.Ввести количество набранных очков в компьютерной игре. Присвоить медаль: Бронзовая(1000 - 2499), Серебряная(2500 - 4999), Золотая(5000 +), иначе без медали.
+<img width="1920" height="1200" alt="№80" src="https://github.com/user-attachments/assets/6dd8834a-44a6-4730-9efe-4f835bd0d648" />
+
             Console.Write("Введите количество набранных очков в компьютерной игре: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1466,6 +1518,8 @@
             }
 
             81.Ввести крепость напитка в градусах. Классифицировать: безалкогольный(0), слабоалкогольный(0.1 - 8), среднеалкогольный(8.1 - 25), крепкий(> 25).
+<img width="1920" height="1200" alt="№81" src="https://github.com/user-attachments/assets/183e58be-bd26-44da-b0f0-370f5609847e" />
+
             Console.Write("Введите крепость напитка в градусах: ");
             double a = Convert.ToDouble(Console.ReadLine());
 
@@ -1487,6 +1541,8 @@
             }
 
             82.Ввести показатель уровня шума в децибелах(дБ).Вывести вердикт: тихо(< 40), норма(40 - 60), шумно(61 - 80), вредно для здоровья(> 80).
+<img width="1920" height="1200" alt="№82" src="https://github.com/user-attachments/assets/9b71dfef-1517-4e36-a26f-a12d614ed2b5" />
+
             Console.Write("Введите показатель уровня шума в децибелах (дБ): ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1508,6 +1564,8 @@
             }
 
             83.Ввести вес почтовой посылки(кг).Рассчитать категорию отправления: мелкий пакет(< 2), стандартная(2 - 10), тяжеловесная(10.1 - 31.5), крупногабарит(> 31.5).
+<img width="1920" height="1200" alt="№83" src="https://github.com/user-attachments/assets/7e4511bc-fa3e-4c17-bf2b-5354031da34d" />
+
             Console.Write("Введите вес почтовой посылки (кг): ");
             double a = Convert.ToDouble(Console.ReadLine());
 
@@ -1529,6 +1587,8 @@
             }
 
             84.Ввести количество комнат в квартире. Вывести: студия / однокомнатная(1), двухкомнатная(2), трехкомнатная(3), многокомнатная(4 +).
+<img width="1920" height="1200" alt="№84" src="https://github.com/user-attachments/assets/ad0d26f4-fab0-4182-94b7-c2f7dd5a668a" />
+
             Console.Write("Введите количество комнат в квартире: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1550,6 +1610,8 @@
             }
 
             85.Ввести процент заряда повербанка.Вывести количество светящихся светодиодов на корпусе(1, 2, 3 или 4).
+<img width="1920" height="1200" alt="№85" src="https://github.com/user-attachments/assets/cb710988-fcfb-45b4-b1ca-213e45e20de9" />
+
             –25 % → 0 светодиодов
             25–50 % → 1 светодиод
             50–75 % → 2 светодиода
@@ -1573,6 +1635,7 @@
             }
 
             86.Ввести выслугу лет военнослужащего.Вывести процент пенсионной надбавки.
+<img width="1920" height="1200" alt="№86" src="https://github.com/user-attachments/assets/e7611d9c-f90f-4ef4-a761-550953e9337a" />
 
             до 5 лет — 0 %
             от 5 до 10 лет — 10 %
@@ -1605,6 +1668,8 @@
             }
 
             87.Ввести время отклика сервера(пинг в мс).Вывести: идеальный(< 20), хороший(20 - 60), посредственный(61 - 120), плохой(> 120).
+<img width="1920" height="1200" alt="№87" src="https://github.com/user-attachments/assets/29fc7b3a-faa2-42c8-9b52-fd674f9b8e5c" />
+
             Console.Write("Введите время отклика сервера (пинг в мс): ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1626,6 +1691,8 @@
             }
 
             88.Ввести концентрацию CO2 в помещении(ppm). Вывести вердикт: норма(< 800), душно(800 - 1200), проветрить немедленно(> 1200).
+<img width="1920" height="1200" alt="№88" src="https://github.com/user-attachments/assets/1a4e9775-383f-4d01-8ff1-478c39702549" />
+
             Console.Write("Введите концентрацию CO2 в помещении (ppm): ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1643,6 +1710,8 @@
             }
 
             89.Ввести количество пройденных шагов за день.Вывести: гиподинамия(< 5000), норма(5000 - 9999), активный день(10000 - 14999), рекорд(> 15000).
+<img width="1920" height="1200" alt="№89" src="https://github.com/user-attachments/assets/6a000af0-55c2-4c71-b180-2349ac068250" />
+
             Console.Write("Введите количество пройденных шагов за день: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1664,6 +1733,8 @@
             }
 
             90.Ввести диаметр автомобильного колесного диска в дюймах. Определить класс: малолитражки(13 - 14), компактные авто(15 - 16), кроссоверы / бизнес(17 - 19), внедорожники / спорт(20 +).
+<img width="1920" height="1200" alt="№90" src="https://github.com/user-attachments/assets/6dc7e878-cc36-4aaa-9585-d1987c10a04e" />
+
             Console.Write("Введите диаметр автомобильного колесного диска в дюймах: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1685,6 +1756,8 @@
             }
 
             91.Ввести значение влажности воздуха(%).Вывести: сухой воздух(< 30), комфорт(30 - 60), повышенная влажность(> 60).
+<img width="1920" height="1200" alt="№91" src="https://github.com/user-attachments/assets/9162f9a9-951a-4c65-8c7e-6e93d2206bfe" />
+
             Console.Write("Введите значение влажности воздуха (%): ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1702,6 +1775,8 @@
             }
 
             92.Даны три числа. Проверить, сколько из них равны между собой(все разные, два равны, все три равны).
+<img width="1920" height="1200" alt="№92" src="https://github.com/user-attachments/assets/61554393-c0d0-4cea-83c0-f3ec1e1f3d42" />
+
             Console.Write("Первое число: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -1733,6 +1808,8 @@
             }
 
             93.Ввести номер четверти координатной плоскости(1–4) и вывести диапазоны знаков для координат X и Y.
+<img width="1920" height="1200" alt="№93" src="https://github.com/user-attachments/assets/9a15a04b-a434-4229-bab9-799fc837f4ef" />
+
             Console.Write("Введите номер четверти (1–4): ");
             int q = Convert.ToInt32(Console.ReadLine());
 
@@ -1758,6 +1835,8 @@
             }
 
             94.Ввести температуру процессора компьютера.Вывести: холодный(< 45), нормальная нагрузка(45 - 75), троттлинг / перегрев(> 75).
+<img width="1920" height="1200" alt="№94" src="https://github.com/user-attachments/assets/be12e2d1-d3b0-447b-9a3a-4a80ba7f9c0d" />
+
             Console.Write("Введите температуру процессора компьютера: ");
             int t = Convert.ToInt32(Console.ReadLine());
 
@@ -1775,6 +1854,8 @@
             }
 
             95.Ввести остаток срока годности продукта в днях. Вывести: «Срочно употребить» (≤2), «Нормально» (3 - 30), «Длительное хранение» (> 30).
+<img width="1920" height="1200" alt="№95" src="https://github.com/user-attachments/assets/2b93bf2a-f91a-40c7-8cb4-3aa8abfa2f17" />
+
             Console.Write("Введите остаток срока годности продукта в днях: ");
             int t = Convert.ToInt32(Console.ReadLine());
 
@@ -1792,6 +1873,8 @@
             }
 
             96.Ввести сумму кредита и срок. Рассчитать процентную ставку в зависимости от срока(до года, до трех лет, свыше трех лет).
+<img width="1920" height="1200" alt="№96" src="https://github.com/user-attachments/assets/45a9d6cf-acb7-4c7d-907a-956feadcccb1" />
+
             Console.Write("Введите сумму кредита: ");
             double summ = Convert.ToDouble(Console.ReadLine());
 
@@ -1814,6 +1897,8 @@
             }
 
             97.Ввести частоту обновления монитора(Гц).Определить: офис(60 - 75), базовый игровой(120 - 144), киберспорт(165 +).
+<img width="1920" height="1200" alt="№97" src="https://github.com/user-attachments/assets/201f9e71-fee4-4474-9e7a-b3ad4b683dea" />
+
             Console.Write("Введите частоту обновления монитора (Гц): ");
             int g = Convert.ToInt32(Console.ReadLine());
 
@@ -1831,6 +1916,7 @@
             }
 
             98.Ввести расход топлива автомобиля на 100 км пути. Вывести вердикт: экономичный(< 6л), средний(6 - 10 л), прожорливый(> 10л).
+
             Console.Write("Введите расход топлива автомобиля на 100 км пути: ");
             int toplivo = Convert.ToInt32(Console.ReadLine());
 
@@ -1848,6 +1934,8 @@
             }
 
             99.Ввести количество страниц книги.Классифицировать: брошюра(< 48), повесть(48 - 150), роман(151 - 600), фолиант(> 600).
+
+
             Console.Write("Введите количество страниц книги: ");
             int kolichestvo = Convert.ToInt32(Console.ReadLine());
 
